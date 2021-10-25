@@ -1,0 +1,348 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+.container{
+    width: 1920px;
+    background: #F2F2F2;
+}
+.title{
+    padding: 48px 120px 19px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title > h1{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+.title > h6{
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+    color: #065CC2;
+}
+
+.main{
+    display: flex;
+    border-radius: 6px;
+    border: 1px solid #C5C5C5;
+    margin: 0 77px;
+    width: 1743px;
+    background: #FFFFFF;
+}
+.delivery{
+    width: 1117px;
+    border-right: 1px solid 
+    rgba(140, 140, 140, 1);
+}
+.title_del{
+    padding: 43px 82px 17px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title_del > h2{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 37px;
+}
+.btn_del{
+    background: #fff;
+    border: 1px solid rgba(214, 214, 214, 1);
+    border-radius: 4px;
+}
+.btn_del > img{
+    width: 40px;
+    height: 40px;
+}
+.where{
+    display: flex;
+
+}
+.block{
+    border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    display: flex;
+    align-items: center;
+    margin:17px 14px 14px 43px;
+}
+.block:hover{
+    border: 2px solid #065CC2;
+    cursor: pointer;
+}
+.block > p{
+    padding: 20px;
+    width: 360px;
+    margin-right: 19px;
+}
+.block > p > span{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
+.price{
+    padding: 62px 10px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+}
+.delivery >p{
+    font-size: 22px;
+    line-height: 28px;
+    color: #065CC2;
+    margin: 14px 0 30px 43px;
+}
+.when{
+    display: flex;
+    align-items: center;
+}
+.block_when{
+    width: 261px;
+    height: 96px;
+    border-radius: 4px;
+    border: 1px solid #D6D6D6;
+    display: flex;
+    align-items: center;
+    margin:17px 14px 14px 43px;
+}
+.block_when > p{
+    padding: 20px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px
+}
+.block_when > p >span{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
+.block_when:hover{
+    border: 2px solid #065CC2;
+    cursor: pointer;
+}
+.when > p{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #065CC2;
+    margin: 0px 30px;
+}
+.when > p{
+    cursor: pointer;
+}
+.notification{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0 0 43px;
+}
+label{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 14px;
+}
+.title_block{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 37px;
+    margin: 30px 0 0 43px;
+}
+.person{
+    display: flex;
+}
+.data_person{
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    margin: 14px 5px 14px 43px;
+    width: 572px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+}
+.data_person:hover{
+    border: 2px solid #065CC2;
+    cursor: pointer;
+}
+.data_person > p{
+    margin: 14px 0 5px 14px;
+    font-size: 17px;
+    line-height: 21px;
+
+}
+.select_style{
+    margin-left:14px;
+    border: none;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    width: 532px;
+}
+.contacs_person{
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    margin: 14px 14px 14px 5px;
+    width: 287px;
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+}
+.contacs_person:hover{
+    border: 2px solid #065CC2;
+    cursor: pointer;
+
+}
+.contacs_person > p{
+    margin: 14px 0 5px 14px;
+    font-size: 17px;
+    line-height: 21px;
+
+}
+.select_style_cont{
+    margin-left:14px;
+    border: none;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    width: 247px;
+}
+.recepient > p{
+    margin-left:43px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #065CC2;
+}
+.pay{
+    padding-bottom:51px;
+    margin-left: 43px;
+    display: flex;
+}
+.block_pay{
+    width: 489px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid #F8F8F8 ;
+    background: #F8F8F8;
+    border-radius: 4px;
+
+}
+.block_pay > p{
+    padding:29px 20px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #6E6E73;
+}
+.block_pay:hover{
+    border: 2px solid #065CC2;
+    cursor: pointer;
+}
+.block_pay > p:hover{
+    color: #333;
+}
+.sale{
+    padding:29px 20px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #6E6E73;
+}
+.info{
+    width: 625px;
+}
+.block_inf{
+    margin:30px 86px 0 50px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.all_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all_price > p{
+    margin-bottom: 14px;
+    width: 400px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px
+}
+.prices{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+}
+.all_price > p > span{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #6E6E73;
+}
+/* FOOTER */
+footer{
+    border-top: 1px solid #C5C5C5;
+    display: flex;
+    align-items: center;
+}
+.btn_footer{
+    position: relative;
+    bottom: 0;
+    display: flex;
+}
+.btn_footer{
+    margin: 20px 20px 20px 120px;
+    padding: 21px 50px;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 37px;
+    color: #fff;
+    width: 398px;
+    height: 80px;
+    background: linear-gradient(0deg, #EC0002, #EC0002), linear-gradient(91.91deg, rgba(208, 38, 38, 0) 0%, #D02626 99.65%), #FF0000;
+    border: 1px solid #E01D1D;
+    border-radius: 4px;
+}
+.btn_footer:hover{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04), 0px 2px 0px rgba(149, 135, 128, 0.4);
+}
+.refaund{
+    margin: 28px 75px 28px 20px;
+    width: 540px;
+    height: 63px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #333;
+}
+.refaund > span{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    color: #333;
+}
+.refaund > a{
+    color: #065CC2;
+    text-decoration: none;
+}
+.total{
+    padding: 21px 30px 12px 10px;
+    margin:28px 5px 28px 20px;
+
+    width: 305px;
+    height: 63px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #333333;
+}
+.summa{
+    margin:28px 184px 28px 0 ;
+    height: 63px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 44px;
+    color: #333333;
+}
