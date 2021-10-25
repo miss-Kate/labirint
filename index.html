@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Оформление заказа</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+           <h1>Оформление заказа</h1>
+           <h6>↑ Назад к корзине</h6> 
+        </div>
+        <div class="main">
+            <div class="delivery">
+                <div class="title_del">
+                    <h2>Доставка</h2>
+                    <div class="btn">
+                        <button class="btn_del">
+                       <img src="./img/Frame.png" alt="#"> 
+                        </button>
+                        <button class="btn_del">
+                        <img src="./img/Frame-2.png" alt="#"> 
+                        </button>
+                    </div>
+                </div>
+                <div class="where">
+                    <div class="block">
+                        <p><span>Почта России, курьер — 24-26 сент.</span>
+                        ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000</p>
+                        <div class="price">+367 ₽</div>
+                        
+                    </div>
+                    <div class="block">
+                            <p><span>Лабиринт, курьер — 25 сент.</span>
+                            Можайское шоссе, д. 21, кв. 50, Москва, 121471</p>
+                            <div class="price">0 ₽</div>
+                        </div>
+                </div>
+                <p>Выбрать новое место и способ</p>
+                <div class="when">
+                    <div class="block_when">
+                        <p><span>пн, 24 сен — ср, 26 сен<br></span>10:00–19:00</p>
+                    </div>
+                    <div class="block_when">
+                        <p><span>чт, 27 сен — пт, 28 сен<br></span>10:00–19:00</p>
+                    </div>
+                    <p>Другие дата и время</p>
+                    
+                </div>
+                <div class="notification">
+                    <label for="notification">
+                        <input type="checkbox" name="notification">
+                        Viber/СМС уведомления о статусе заказа</label>
+                    <label for="notification">
+                        <input type="checkbox" name="notification">
+                        Оставить у двери (бесконтактная доставка)</label>
+                </div>
+                <div class="recepient">
+                        <h2 class="title_block">
+                            Получатель</h2>
+                    <div class="person">
+                        <form class="data_person" action="#">
+                            <p>Имя и фамилия</p> 
+                            <select class="select_style" name="name" >
+                                <option value="Вольфганг Вениаминович Константинопольский">Вольфганг Вениаминович Константинопольский
+                                </option>
+                            </select>
+                        </form>
+                            <form class="contacs_person" action="#">
+                                <p>Контактный телефон</p> 
+                                <select class="select_style_cont" name="name" >
+                                    <option value="+7 910 234-56-78">+7 910 234-56-78
+                                    </option>
+                                </select>
+                            </form>
+                    </div>
+                    <p>Новый получатель</p>
+                    
+                </div>
+                <h2 class="title_block">Оплата</h2>
+                <div class="pay">
+                    <div class="block_pay">
+                        <p>Предоплата на сайте</p>
+                        <p class="sale" >Скидка –3%</p>
+                    </div>
+                    <div class="block_pay">
+                        <p>Оплата при получении</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <h2 class="title_block">
+                    В заказе 4 товара <span>(2кг)
+                    </span> 
+                </h2>
+                <div class="block_inf">
+                    <div class="all_price">
+                        <p>Цена товаров</p>
+                        <div class="prices">29 456 ₽</div>
+                    </div>
+                    <div class="all_price">
+                        <p>Все скидки</p>
+                        <div class="prices">–7 732 ₽</div>
+                    </div>
+                    <div class="all_price">
+                        <p>Скидка за предоплату</p>
+                        <div class="prices">–3%</div>
+                    </div>
+                    <div class="all_price">
+                        <p>Почта России, курьер, Академика Королева, 73/3, Петропавловск- Камчатский, 683000 <br> 
+                        <span>24 сентября,10:00–19:00</span>
+                        </p>
+                        <div class="prices">+367 ₽
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <button class="btn_footer">Оформить и оплатить</button>
+            <p class="refaund"><span>Возврат невозможен.</span> С выбранным способом доставки этот заказ можно будет забрать только целиком. Нельзя будет отказаться от части товаров или вернуть весь заказ <a href="#">Подробнее об этом</a></p>
+            <p class="total">Итого к оплате на сайте:</p>
+            <div class="summa">21 072 ₽</div>
+        </footer>
+    </div> 
+</body>
+</html>
